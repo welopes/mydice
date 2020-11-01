@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id varius ipsum. In tincidunt nulla et bibendum condimentum. Fusce sodales dui a blandit consectetur. In elit orci, feugiat sit amet aliquam ac, porttitor vitae magna. Mauris convallis dictum ipsum. Donec sollicitudin iaculis ligula, sit amet semper sapien iaculis at. Mauris congue mauris a urna luctus, vel porttitor neque scelerisque.  In aliquam sodales est, sed lacinia nisi tristique sed. Aenean finibus orci quam, fringilla porttitor lacus ornare imperdiet. Morbi odio nisl, tincidunt id finibus id, lobortis a dolor. Sed feugiat commodo ligula, vel varius odio condimentum a. Duis sed ante vel neque vulputate consequat. Nam quis odio quis elit lacinia consequat. Curabitur eget sapien nunc. Sed congue a arcu vel egestas. Ut efficitur mauris in nisi ultricies ullamcorper.  Curabitur sed metus volutpat nunc interdum ullamcorper. Aliquam erat volutpat. Proin sed nisl pretium, aliquet leo id, gravida leo. Morbi pharetra sapien mauris. Phasellus pulvinar tortor nisl. Fusce est diam, volutpat in nisl non, tincidunt volutpat metus. In elementum lobortis varius. Duis non nunc augue. Aliquam sapien libero, condimentum at suscipit facilisis, consequat at eros. Pellentesque dapibus, ligula at auctor gravida, lacus augue suscipit libero, ac tincidunt arcu tellus eu velit. Vivamus tincidunt, odio quis porta viverra, mauris massa accumsan mi, non interdum dui turpis ac leo. Cras eu nisi et dui fringilla pharetra. Aliquam et ante nisl. Suspendisse purus metus, dignissim ac volutpat sed, lobortis nec tellus. Morbi a velit a est blandit pulvinar ut eu massa. Nam eu eros bibendum, efficitur tortor venenatis, viverra justo.  Donec sollicitudin porta vestibulum. Curabitur nec erat libero. Nulla convallis lectus vitae libero porta, a sodales purus porttitor. Nunc sed tincidunt magna. Mauris sit amet leo nisi. Maecenas egestas purus faucibus tortor facilisis, at ultricies metus posuere. Suspendisse sodales eros vulputate arcu luctus, eu venenatis quam volutpat. Ut dignissim mi quis mi sodales dapibus. Nullam quis mollis ipsum. In nulla metus, tristique eu volutpat in, eleifend at nibh. Pellentesque ultrices venenatis magna, vel tempor urna efficitur et. Phasellus dictum nec arcu sed fermentum. In convallis ex sed ex sollicitudin, vitae ornare augue hendrerit. Fusce vel nulla condimentum, pellentesque nibh eget, facilisis elit. Ut nec vulputate felis, at tincidunt ante.  Aenean placerat ipsum vel congue sodales. Vivamus laoreet non arcu vel efficitur. Vivamus cursus, arcu eget placerat scelerisque, urna tellus elementum libero, fringilla gravida nibh ex et risus. Quisque tempor eu lorem non vestibulum. Duis imperdiet enim vitae felis ultricies, eget pulvinar elit aliquam. Praesent feugiat varius risus quis varius. Curabitur ut orci ipsum. In in orci suscipit, mattis augue non, congue leo. Aenean pharetra varius neque at tempor. Fusce et tellus id ex tempor posuere eu vel dolor. Nam lacinia aliquam dui. Nunc ac tristique est, et ullamcorper tellus. Proin ultricies sagittis justo, a faucibus erat eleifend et. Integer mollis enim in malesuada interdum. In tempor ultricies quam, non blandit nisi mollis et." />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
